@@ -1,8 +1,7 @@
 {
   "name": "react-forwardref-utils",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Utils to help with React 16.3+ forwardRef method",
-  "main": "index.js",
   "author": "Pavel Klimashkin",
   "repository": {
     "type": "git",
@@ -17,6 +16,13 @@
     "url": "https://github.com/klimashkin/react-forwardref-utils/issues"
   },
   "homepage": "https://github.com/klimashkin/react-forwardref-utils#readme",
+  "main": "./dist/react-forwardref-utils.js",
+  "es2015": "./dist/es2015/react-forwardref-utils.js",
+  "es2017": "./dist/es2017/react-forwardref-utils.js",
+  "files": [
+    "dist",
+    "src"
+  ],
   "dependencies": {
     "hoist-non-react-statics": "^2.5.0"
   },
